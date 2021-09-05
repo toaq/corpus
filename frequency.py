@@ -27,23 +27,15 @@ for y in dic:
     gloss[lemma] = y['gloss']
 official = set(gloss.keys())
 
-print("== Official words by frequency in the corpus ===", end="")
-lastn = None
+print("== Official words by frequency in the corpus ===")
 for x, n in freq:
     if x in official:
-        if 1 or lastn != n: print('\n' + str(n), end=' '); lastn = n
-        print(x, '('+gloss[x]+')', end=' ')
-print()
+        print(n, x, '('+gloss[x]+')')
 for x in sorted(set(official) - set(ctr)):
     print(0, x, '('+gloss[x]+')')
 
 print()
-print("== Unofficial words used ≥5 times in the corpus ===", end="")
-lastn = None
+print("== Unofficial words used ≥5 times in the corpus ===")
 for x, n in freq:
     if x not in official and n>4:
-        if lastn != n: print('\n' + str(n), end=' '); lastn = n
-        print(x, end=' ')
-print()
-
-
+        print(n, x)
