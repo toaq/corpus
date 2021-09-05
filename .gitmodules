@@ -1,0 +1,3 @@
+[submodule "dictionary"]
+	path = dictionary
+	url = ../dictionary.git

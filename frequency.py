@@ -1,12 +1,9 @@
 import re
 import unicodedata
 import json
-
-dic = json.load(open("dictionary.json"))
 from collections import Counter
 
-def read_corpus(fn):
-    corpus = open(fn).read()
+def cleanup(corpus):
     corpus = corpus.replace("Mảı: ", "")
     corpus = corpus.replace("adefinite Magı", "")
     corpus = corpus.replace("Hỏaqgīo (targets 2584/4360)", "")
@@ -15,29 +12,38 @@ def read_corpus(fn):
     corpus = corpus.replace("lu rara puefuq ke pohoa shiaq", "")
     return corpus
 
-corpus = read_corpus("toaq-corpus.txt")
-words = re.findall(r"\b(?:(?:[bcdfghjklmnprstz]?|sh|nh)[aeiouy]+q?)+\b", corpus)
+corpus = cleanup(open("toaq-corpus.txt").read())
+words = re.findall(r"\b(?:(?:[bcdfghjklmnprstz]?|ch|sh|nh)[aeiouy]+q?)+\b", corpus)
 ctr = Counter(words)
-ctr["hoaqgio"] = 0
 
-official = read_corpus("official-words.txt")
-official = official.strip().split('\n')
+freq = list(ctr.most_common())
+freq.sort(key=lambda x: (-x[1], x[0]))
+
 gloss = {}
-for x, y in zip(official, dic): gloss[x] = y['gloss']
+dic = json.load(open("dictionary/dictionary.json"))
+for y in dic:
+    lemma = cleanup(y['toaq'])
+    if ' ' in lemma: continue
+    gloss[lemma] = y['gloss']
+official = set(gloss.keys())
 
+print("== Official words by frequency in the corpus ===", end="")
 lastn = None
-for x, n in ctr.most_common():
+for x, n in freq:
     if x in official:
         if 1 or lastn != n: print('\n' + str(n), end=' '); lastn = n
         print(x, '('+gloss[x]+')', end=' ')
+print()
+for x in sorted(set(official) - set(ctr)):
+    print(0, x, '('+gloss[x]+')')
 
 print()
-for x in set(official) - set(ctr):
-    print(0, x, '('+gloss[x]+')', end='\n')
-print()
-
+print("== Unofficial words used ≥5 times in the corpus ===", end="")
 lastn = None
-for x, n in ctr.most_common():
+for x, n in freq:
     if x not in official and n>4:
         if lastn != n: print('\n' + str(n), end=' '); lastn = n
         print(x, end=' ')
+print()
+
+
