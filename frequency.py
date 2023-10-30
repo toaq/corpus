@@ -1,3 +1,4 @@
+import datetime
 import re
 import unicodedata
 import json
@@ -7,13 +8,30 @@ def cleanup(corpus):
     corpus = corpus.replace("Mảı: ", "")
     corpus = corpus.replace("adefinite Magı", "")
     corpus = corpus.replace("Hỏaqgīo (targets 2584/4360)", "")
-    corpus = re.sub(r"[\u0300-\u036f]", "", unicodedata.normalize("NFD", corpus)).lower().replace("ı", "i").replace("ȷ", "j")
+    corpus = unicodedata.normalize("NFD", corpus)
+    corpus = re.sub(r"\u0323", "- ", corpus)
+    corpus = re.sub(r"[\u0300-\u036f]", "", corpus).lower().replace("ı", "i").replace("ȷ", "j")
+    corpus = re.sub(r"\|\|[^|]+\|\|", "", corpus)
+    corpus = re.sub("w|vy?|y", "ꝡ", corpus)
     corpus = corpus.replace("ke huoicia mi inari", "")
     corpus = corpus.replace("lu rara puefuq ke pohoa shiaq", "")
     return corpus
 
-corpus = cleanup(open("toaq-corpus.txt").read())
-words = re.findall(r"\b(?:(?:[bcdfghjklmnprstz]?|ch|sh|nh)[aeiouy]+q?)+\b", corpus)
+with open("toaq-corpus.txt") as f:
+    corpus = [f.read()]
+import csv
+with open("toaq-only.csv") as f:
+    for row in csv.reader(f):
+        if row[2] == "Date":
+            continue
+        date = datetime.datetime.strptime(row[2], "%m/%d/%Y %I:%M %p")
+        if (date.year, date.month, date.day) >= (2022, 12, 6):
+            corpus.append(row[3])
+
+
+# corpus = cleanup(open("toaq-corpus.txt").read())
+corpus = "\n".join(corpus)
+words = re.findall(r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+q?)+-?\b", corpus)
 ctr = Counter(words)
 
 freq = list(ctr.most_common())
