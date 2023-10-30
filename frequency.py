@@ -30,7 +30,7 @@ with open("toaq-only.csv") as f:
 
 
 # corpus = cleanup(open("toaq-corpus.txt").read())
-corpus = "\n".join(corpus)
+corpus = cleanup("\n".join(corpus))
 words = re.findall(r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+q?)+-?\b", corpus)
 ctr = Counter(words)
 
@@ -42,6 +42,8 @@ dic = json.load(open("dictionary/dictionary.json"))
 for y in dic:
     lemma = cleanup(y['toaq'])
     if ' ' in lemma: continue
+    if lemma in gloss and lemma != y['toaq']:
+        continue
     gloss[lemma] = y['gloss']
 official = set(gloss.keys())
 
