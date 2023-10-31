@@ -31,7 +31,11 @@ with open("toaq-only.csv") as f:
 
 # corpus = cleanup(open("toaq-corpus.txt").read())
 corpus = cleanup("\n".join(corpus))
-words = re.findall(r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+q?)+-?\b", corpus)
+words = [
+    w
+    for line in corpus.split("\n")
+    for w in set(re.findall(r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+q?)+-?\b", line))
+]
 ctr = Counter(words)
 
 freq = list(ctr.most_common())
@@ -55,7 +59,7 @@ for x in sorted(set(official) - set(ctr)):
     print(0, x, '('+gloss[x]+')')
 
 print()
-print("== Unofficial words used ≥5 times in the corpus ===")
+print("== Unofficial words used ≥4 times in the corpus ===")
 for x, n in freq:
-    if x not in official and n>4:
+    if x not in official and n>=4:
         print(n, x)
