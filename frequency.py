@@ -1,8 +1,10 @@
+import csv
 import datetime
 import re
+import sys
 import unicodedata
 import json
-from collections import Counter
+from collections import Counter, defaultdict
 
 def cleanup(corpus):
     corpus = corpus.replace("Mảı: ", "")
@@ -19,24 +21,30 @@ def cleanup(corpus):
 
 with open("toaq-corpus.txt") as f:
     corpus = [f.read()]
-import csv
+
+who_said = defaultdict(set)
+TOAQ_WORD = r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+[qm]?)+-?\b"
+
 with open("toaq-only.csv") as f:
     for row in csv.reader(f):
         if row[2] == "Date":
             continue
-        date = datetime.datetime.strptime(row[2], "%m/%d/%Y %I:%M %p")
+        _id, speaker, date, line, *_ = row
+        date = datetime.datetime.strptime(date, "%m/%d/%Y %I:%M %p")
         if (date.year, date.month, date.day) >= (2022, 12, 6):
-            corpus.append(row[3])
-
+            corpus.append(line)
+            for word in re.findall(TOAQ_WORD, line):
+                who_said[word].add(speaker)
 
 # corpus = cleanup(open("toaq-corpus.txt").read())
 corpus = cleanup("\n".join(corpus))
-words = [
-    w
-    for line in corpus.split("\n")
-    for w in set(re.findall(r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+q?)+-?\b", line))
-]
-ctr = Counter(words)
+ctr = Counter()
+
+for line in corpus.split("\n"):
+    wds = re.findall(TOAQ_WORD, line)
+    for w in set(wds):
+        ctr[w] += 1
+
 
 freq = list(ctr.most_common())
 freq.sort(key=lambda x: (-x[1], x[0]))
@@ -61,5 +69,12 @@ for x in sorted(set(official) - set(ctr)):
 print()
 print("== Unofficial words used ≥4 times in the corpus ===")
 for x, n in freq:
-    if x not in official and n>=4:
+    if x not in official and n >= 4:
         print(n, x)
+
+print()
+print("== Unofficial words used by ≥3 speakers ===")
+for k, v in who_said.items():
+    if k not in official and len(v) >= 3:
+        print(k, len(v))
+

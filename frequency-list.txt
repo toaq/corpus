@@ -80,6 +80,7 @@
 22 hoq (it.III)
 22 raq (about)
 22 sia (no)
+21 chum (IMPF)
 21 dai (POSB.IND)
 21 due (correct)
 21 sigi (interesting)
@@ -313,6 +314,7 @@
 4 soq (most)
 4 suai (fast)
 4 suaq (sing)
+4 tam (PERF)
 4 za (PRSP)
 3 aja (yay)
 3 biaq (enough)
@@ -544,6 +546,7 @@
 1 duafui (obvious)
 1 duagi (wise)
 1 dueq (field)
+1 em (huh?)
 1 eni (here)
 1 eoropa (Europe)
 1 fa- (TEL)
@@ -621,6 +624,7 @@
 1 muaoguaq (forest)
 1 muaome (forest)
 1 muq (hand)
+1 nam (bread)
 1 naomi (ocean)
 1 naq (male)
 1 naraq (orange)
@@ -769,7 +773,6 @@
 0 chui (early)
 0 chuihaq (breakfast)
 0 chuiriao (dawn)
-0 chum (IMPF)
 0 chuqguao (fork)
 0 chuqtiao (edible)
 0 ci (six)
@@ -817,7 +820,6 @@
 0 eku (equine)
 0 ele ()
 0 elu (elephant)
-0 em (huh?)
 0 eq'elu (E)
 0 esa (exa)
 0 fafuaq (movie)
@@ -1081,7 +1083,6 @@
 0 muqcheibea (knuckle)
 0 muqdea (punch)
 0 muqfuq (glove)
-0 nam (bread)
 0 nanaq (N)
 0 naoguaq (island)
 0 naokua (bathroom)
@@ -1275,7 +1276,6 @@
 0 sui (least)
 0 sunabo (your)
 0 sushi (sushi)
-0 tam (PERF)
 0 taocia (accidental)
 0 taodie (advise)
 0 taokoe (choose.to)
@@ -1327,6 +1327,7 @@
 0 zue (temporarily)
 
 == Unofficial words used ≥4 times in the corpus ===
+27 com
 18 hia
 16 nheo
 14 ai
@@ -1344,6 +1345,7 @@
 8 jiaqruq
 8 kani
 8 koana
+8 namru
 8 rubu
 8 ꝡoutube
 7 chieche
@@ -1362,6 +1364,7 @@
 5 cueqtua
 5 huoge
 5 kiki
+5 luaqkim
 5 muijeq
 5 naihe
 5 suaqse
@@ -1387,6 +1390,7 @@
 4 nuoqsai
 4 nuru
 4 oꝡo
+4 pam
 4 pari
 4 peqniu
 4 piaq
@@ -1399,3 +1403,41 @@
 4 tonameqtue
 4 unou
 4 unu
+
+== Unofficial words used by ≥3 speakers ===
+hia 4
+im 3
+namru 4
+goso 3
+com 11
+nheo 4
+aaa 5
+hezo 3
+i 13
+u 5
+io 3
+e- 4
+o 7
+ai 3
+so 5
+are 3
+sono 4
+shuq 3
+like 3
+re 3
+use 3
+jito 3
+i- 3
+one 3
+pa 3
+momoq 4
+media 3
+same 3
+hahaha 3
+huoge 3
+suaqse 3
+eq 4
+joepoq 5
+muqceaq 4
+anoke 3
+unu 3
