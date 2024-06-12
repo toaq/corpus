@@ -11,6 +11,7 @@ def cleanup(corpus):
     corpus = corpus.replace("adefinite Magı", "")
     corpus = corpus.replace("Hỏaqgīo (targets 2584/4360)", "")
     corpus = unicodedata.normalize("NFD", corpus)
+    corpus = re.sub(r"([aeiıou](?:q|m(?![aeiıou]))?)([bcdfghjklmnprstꝡz]+[aeiıou])([\u0300\u0301\u0302\u0308])", lambda m: m[1] + "- " + m[2], corpus)
     corpus = re.sub(r"\u0323", "- ", corpus)
     corpus = re.sub(r"[\u0300-\u036f]", "", corpus).lower().replace("ı", "i").replace("ȷ", "j")
     corpus = re.sub(r"\|\|[^|]+\|\|", "", corpus)
@@ -23,7 +24,7 @@ with open("toaq-corpus.txt") as f:
     corpus = [f.read()]
 
 who_said = defaultdict(set)
-TOAQ_WORD = r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+[qm]?)+-?\b"
+TOAQ_WORD = r"\b(?:(?:[bcdfghjklmnprstꝡz]?|ch|sh|nh)[aeiou]+(?:q|m(?![aeiıou]))?)+(?:-|\b)"
 
 with open("toaq-only.csv") as f:
     for row in csv.reader(f):

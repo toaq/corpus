@@ -1,252 +1,265 @@
 == Official words by frequency in the corpus ===
 835 ji (1S)
-542 da ([assertive])
-534 ꝡa (COMP)
-403 suq (2S)
-321 baq (GEN)
-303 sa (some)
-286 ni (this)
-271 mi (NAME)
-235 bu (NEG)
-231 na (CLE)
+543 da ([assertive])
+533 ꝡa (COMP)
+405 suq (2S)
+324 baq (GEN)
+301 sa (some)
+284 ni (this)
+270 mi (NAME)
+228 na (CLE)
 221 po (of)
+214 bu (NEG)
 174 hoa (RSM)
 173 keo (but)
-150 ba (OPT)
-144 ru (and)
+149 ba (OPT)
+143 ru (and)
 139 nhao (3S)
 135 moq (INT)
 131 hoi (VOC)
-122 hao (stuff)
+124 hao (stuff)
 117 hi (which)
-105 e (EVA)
-101 ma (whether)
-98 shu (WORD)
+100 e (EVA)
+100 ma (whether)
+97 shu (WORD)
 96 pu (PST)
-95 ꝡe (RST)
+96 ꝡe (RST)
 94 ti (at)
 93 rao (when)
-91 la (λ)
-84 ha (3I.ANIM)
+90 la (λ)
 84 ja (X)
 84 teo (UNQUOTE)
 78 ke (EXO)
 77 jibo (my)
-76 a (ah)
 75 lui (RETR)
+74 a (ah)
 73 rai (something)
 72 bi (TOP)
+71 ha (3I.ANIM)
 71 maq (it.II)
+70 gi (good)
 66 kui (because)
-65 hu (ENDO)
 64 ime (1+3)
-63 gi (good)
-63 he (GNO)
-63 ku (FOC)
+63 be- (GA)
+62 ku (FOC)
 62 tu (each)
+61 he (GNO)
+60 nu (such)
 59 mao (also)
-59 nu (such)
-56 ka (hereby)
 56 mo (QUOTE)
+55 ka (hereby)
 55 kuq (say)
-54 nho (yes)
-53 tua (make.happen)
+55 nho (yes)
+54 tua (make.happen)
+53 bu- (NEG)
+53 deq (able)
+52 dua (know)
 52 ta (it.IV)
-51 deq (able)
 51 ho (it.I)
-49 dua (know)
-48 nha (PROM)
-45 jaq (very)
+49 hu (ENDO)
+47 cho (like)
+47 nha (PROM)
+46 jaq (very)
+45 gai (perceive)
 45 suqbo (your)
-44 gai (perceive)
-43 cho (like)
 43 nai (PRS)
+43 sia (no)
 43 tiu (therefore)
+42 chi (believe)
+42 chum (IMPF)
 42 lo (the)
-41 chum (IMPF)
+42 shao (want)
 41 poq (person)
-41 shao (want)
-41 sia (no)
 40 suna (2P)
-39 du (seem)
-38 chi (believe)
+38 du (seem)
 38 kuaq (express)
-35 choq (use)
+37 pui (many)
+36 choq (use)
 35 juoq (should)
-35 pui (many)
 34 cha (manner)
+34 to (only)
+32 mai (love)
 32 tao (do)
-32 to (only)
 32 zi (no?)
 31 miu (opine)
 31 no (in)
 30 jeo (AFF)
-30 mai (love)
 30 nhana (3P)
-29 bo (have)
+30 sho (become)
+29 bo- (PASS)
+29 ca (cause)
+29 ha- (CMPR)
 29 mimo (NAME.QUOTE)
 29 niq (new)
-29 sho (become)
-27 ca (cause)
+29 shi (one)
 27 dai (POSB.IND)
-27 em (huh?)
 27 shai (cease)
 26 de (beautiful)
+26 em (huh?)
 26 hoq (it.III)
 26 toaqzu (Toaq)
+25 buq- (AUG)
+25 chuq (eat)
+25 gu (two)
+25 hu- (PREV)
 25 she (NEC.IND)
 25 siu (similar)
 25 tuq (all)
 24 ao (NEC.SUBJ)
 24 bai (build)
-24 be (infant)
-24 gu (two)
 24 jadi (hi)
 24 ju (NRST)
 24 raq (about)
-23 be- (GA)
 23 chua (name)
-23 chuq (eat)
 23 due (correct)
 23 faq (happen)
 23 mala (EXS.PST)
 23 moaq (remember)
-23 shi (one)
+23 req (human)
+23 sigi (interesting)
 22 jia (FUT)
 22 jua (weird)
-22 sigi (interesting)
 22 toa (word)
 21 ama (1+2+3)
 21 bie (after)
 21 hiq (NEAR.RETR)
+21 ku- (FOC)
+21 mu- (OPP)
+21 muo (whole)
 21 paq (part)
-20 ki ())
 20 luaq (play)
 20 muidua (understand)
-20 muo (whole)
-20 req (human)
 20 roi (and)
 20 zai (hope)
 20 zuo (have.purpose)
 20 ꝡo (ADM)
+19 fieq (create)
 19 nichaq (today)
 18 do (give)
-18 fieq (create)
+18 fa (go)
 18 go (RETROCLE)
 18 hai (SUBF)
+18 leo (try)
 18 riu (return)
 18 ruaq (assert)
 18 taoshao (intend)
+17 beo (change)
+17 bo (have)
 17 chaq (day)
-17 fa (go)
 17 ina (roger)
+17 jiao (god)
+17 jiq (actual)
 17 kiji (thanks)
 17 le (likely)
-17 leo (try)
-16 bei (FOC.CONTR)
-16 jiq (actual)
+17 nuo (sleep)
+17 su- (SUP)
+16 heo (different)
 16 kai (write)
+16 lueq (serve)
+16 moi (think)
 16 niqguo (again)
 16 noaq (read)
-15 beo (change)
+16 pua (enjoy)
+16 soa (help)
+15 bei (FOC.CONTR)
+15 bua (inhabit)
 15 chia (need)
+15 chijio (temple)
 15 doa (PERM)
-15 heo (different)
-15 jiao (god)
 15 kaqgai (see)
-15 lueq (serve)
-15 nuo (sleep)
-15 pua (enjoy)
+15 ki- (ADJ)
 15 sha (arrive)
-15 soa (help)
+15 tiao (match)
 15 zao (know)
-14 bua (inhabit)
-14 buq- (AUG)
-14 chijio (temple)
+14 ceo (begin)
+14 doi (respect)
 14 foa (feel)
+14 guai (work)
 14 iq (satisfy.property)
+14 jai (happy)
+14 ki ())
 14 kio (()
 14 mea (among)
-14 moi (think)
 14 nhuq (benefit)
 14 nie (inside)
 14 oro (ugh)
-13 ceo (begin)
+14 sue (request)
 13 duai (must)
 13 jaga (congratulations)
-13 jai (happy)
 13 kua (room)
-13 ra (or)
+13 mie (alive)
 13 shoe (allow)
 13 shue (remain)
-13 sue (request)
-13 tiao (match)
 12 chiai (wrong)
 12 dui (too.much)
 12 gaq (accompany)
-12 guai (work)
+12 hui (bad)
 12 je ([new.topic])
 12 jei (identical)
 12 juaq (even)
 12 niaq (year)
 12 noa (difficult)
+12 ra (or)
 12 shiu (before)
 12 suao (important)
+12 suoi (great)
+12 te- (PPF)
 12 tisha (arrive)
 12 toaq (Toaqic)
 12 tue (state)
+11 bei- (FOC.CONTR)
 11 boq (prevent)
 11 fao (end)
+11 ge- (DIM)
+11 guo (instance)
 11 huogai (hear)
 11 imebo (our)
 11 kafe (coffee)
 11 kie (thankful)
+11 luai (funny)
 11 moe (feel)
 11 si (attentive)
 11 soq (most)
 11 sua (necessary)
 11 tai (succeed)
 11 ua (wow)
-10 bu- (NEG)
 10 buaq (fail)
 10 chai (tea)
 10 cheq (RECP)
 10 deoq (communicate)
 10 gei (wear)
 10 giaq (music)
-10 guo (instance)
 10 haq (food)
+10 heq (contain)
 10 hoai (SPRF)
-10 hui (bad)
+10 huosi (listen)
 10 jie (deemed)
+10 kushe (sorry)
 10 muaqsho (die)
 10 nhu (anyway)
 10 obe (oh)
 10 pai (friend)
 10 raqmoi (think.about)
 10 sheo (regret)
+10 siq (clean)
 10 tio (how.much)
+9 cai (strong)
 9 cua (respond)
 9 daq (time)
 9 di (allowed.to)
 9 duo (continue)
 9 fi (NEAR.PRSP)
+9 geq (meet)
 9 guosia (never)
-9 heq (contain)
-9 huosi (listen)
 9 inha (wilco)
 9 jiaq (world)
 9 jio (building)
-9 kushe (sorry)
 9 lai (letter)
+9 lao (wait)
 9 laqcai (loud)
-9 luai (funny)
-9 mie (alive)
 9 nhaobo (their)
 9 nhe (extent)
-9 oai (uh-oh)
-9 siq (clean)
-9 suoi (great)
+9 nui (small)
 9 tam (PERF)
 9 tijao (far)
 9 tijui (near)
@@ -255,34 +268,36 @@
 8 aq (REFL)
 8 buai (long)
 8 buo (ready)
+8 choa (utter)
 8 dieq (send)
-8 doi (respect)
 8 duq (habitually)
-8 geq (meet)
+8 heaq (carry)
 8 jeaq (increase)
 8 jiuchaq (birthday)
+8 joai (seek)
+8 joi (along.with)
 8 juq (acquire)
-8 lao (wait)
 8 muaq (dead)
 8 muaqtua (kill)
 8 mui (meaning)
-8 nui (small)
+8 na- (CONJ)
+8 oai (uh-oh)
 8 poaqse (shard)
 8 riaq (place)
+8 sea (rest)
+8 tuai (body)
 7 boi (since)
-7 choa (utter)
+7 caq (conduct)
 7 daqmiq (eternal)
 7 duafui (obvious)
 7 fuaq (picture)
-7 heaq (carry)
-7 joai (seek)
 7 joe (skilled)
-7 joi (along.with)
 7 juna (is.true)
 7 kato (cat)
 7 kea (machine)
 7 laq (sound)
 7 loq (hot)
+7 meo (sad)
 7 moaqshai (forget)
 7 nao (water)
 7 pea (ago)
@@ -290,25 +305,27 @@
 7 ruqnuao (rainbow)
 7 sao (big)
 7 saq (three)
-7 sea (rest)
+7 shei (free)
 7 siao (beginning)
 7 suai (fast)
-7 tuai (body)
+7 to- (only)
 6 aqbo (oneself's)
+6 be (infant)
 6 bia (sick)
-6 bo- (PASS)
-6 caq (conduct)
+6 bui (outside)
 6 cheo (reciprocally)
+6 chiaq (aware)
 6 chuado (name)
 6 cuo (assume)
+6 fai (frequent)
 6 hobo (its)
 6 jea (buy)
 6 jeha (AFF.CONTR)
 6 jela (EXS.FUT)
+6 kaqsi (watch)
 6 kioq (ball)
-6 meo (sad)
+6 mieq (measure)
 6 miujeq (agree)
-6 mu (-ed)
 6 rioq (type)
 6 ro (xor)
 6 rua (flower)
@@ -318,31 +335,29 @@
 6 tuao (little)
 5 buajio (house)
 5 bue (home)
-5 bui (outside)
-5 cai (strong)
-5 chiaq (aware)
 5 cuaq (concept)
-5 fai (frequent)
+5 duagi (wise)
 5 fo (by.the.way)
 5 fue (hundred)
 5 fui (easy)
 5 gao (above)
 5 gua (country)
 5 guaq (land)
+5 haqbai (prepare.food)
+5 hiao (harm)
 5 hichu (oi)
 5 hoaq (burn)
-5 hu- (PREV)
 5 huaq (more)
+5 jui (near)
 5 kaise (text)
-5 kaqsi (watch)
 5 koi (ambulate)
 5 kuai (urge.for)
 5 maigaq (SO)
 5 miao (moon)
 5 moihua (brain)
 5 mua (example)
-5 na- (CONJ)
 5 neo (on)
+5 noqgi (delicious)
 5 nuogai (dream)
 5 paigi (friendly)
 5 peo (through)
@@ -350,17 +365,19 @@
 5 puchaq (yesterday)
 5 puq (multiple)
 5 reaq (lie)
+5 reoq (late)
 5 rio (air)
 5 sahu (is.false)
-5 shei (free)
 5 taq (self)
 5 tiai (box)
 5 tibumeo (miss)
 5 za (PRSP)
 4 amabo (our)
 4 bao (white)
+4 biaq (enough)
 4 buja (kiss)
 4 buq (mouth)
+4 cheaq (trusty)
 4 chie (learn)
 4 chiro (damn)
 4 choalaq (voice)
@@ -370,42 +387,36 @@
 4 deaq (floor)
 4 die (suggest)
 4 dio (daytime)
-4 ge (stimulus)
+4 fie (ugly)
 4 geo (old)
-4 ha- (CMPR)
-4 hiao (harm)
 4 hio (greet)
 4 jiu (born)
-4 jui (near)
 4 kuao (cyan)
 4 lie (experience)
 4 loe (flame)
 4 loi (hate)
 4 luq (calm)
 4 mei (mountain)
-4 mieq (measure)
 4 miq (infinite)
 4 moehua (organ.of.feeling)
-4 ne (amount)
 4 niai (animal)
 4 nio (young)
-4 noqgi (delicious)
 4 nuokua (bedroom)
 4 pujui (NEAR.PST)
 4 reo (coloured)
-4 reoq (late)
 4 ri (or?)
 4 roa (natural)
 4 roe (healthy)
 4 ruao (forgive)
 4 ruq (rain)
+4 seakuai (exhausted)
 4 seoq (sky)
 4 shaq (in.front)
 4 sheaq (stand)
 4 shiko (first)
 4 shuai (simple)
 4 sie (follow)
-4 su (previous.predicate)
+4 tea (scared)
 4 tieq (path)
 4 tiriu (return)
 4 toidue (morally.correct)
@@ -414,43 +425,39 @@
 4 zueq (broken)
 3 aja (yay)
 3 biao (confused)
-3 biaq (enough)
-3 ce (node)
 3 che (-er)
-3 cheaq (trusty)
 3 chiu (address)
 3 choaq (guest)
-3 chu (middle)
+3 chuqkuai (hungry)
 3 cue (reign)
 3 daqshei (free)
+3 dea (hit)
 3 diosiao (morning)
 3 duashao (wonder)
 3 duasho (find.out)
 3 ea (POSB.SUBJ)
 3 eju (let's.see)
 3 eni (here)
-3 fie (ugly)
 3 foi (bored)
 3 gaokoi (climb)
-3 ge- (DIM)
 3 gieq (shock)
 3 guq (below)
-3 haqbai (prepare.food)
 3 hie (carry)
 3 huaqcho (prefer)
 3 huilie (suffer)
 3 jeaqdo (add)
 3 jemu (Jemu)
+3 jeq (same)
 3 joetao (practice)
 3 juao (rule)
-3 ki- (ADJ)
+3 juoi (describe)
 3 koe (choose)
 3 koq (rough)
 3 kuitue (reason)
 3 kuqnu (alleged)
 3 liq (female)
 3 lueqche (servant)
-3 mu- (OPP)
+3 mao- (also)
 3 muoq (made.of)
 3 nidaq (now)
 3 nieq (unskilled)
@@ -460,25 +467,25 @@
 3 nuaq (night)
 3 nue (promise)
 3 nueq (meat)
+3 nuokuai (tired)
 3 ocha (human)
 3 paqtao (participate)
 3 piao (complicated)
 3 rieq (avoid)
-3 seakuai (exhausted)
 3 seo (spouse)
 3 shiesho (wake.up)
 3 shoa (deep)
+3 shuao (bird)
 3 shuaq (produce)
+3 shui (secret)
 3 sieq (awe)
 3 soi (fight)
 3 soitai (defeat)
-3 su- (SUP)
 3 tabo (its)
-3 te (-ed)
-3 tea (scared)
 3 teoq (question)
+3 teq (pay)
+3 tie (cover)
 3 tishue (stay)
-3 to- (only)
 3 toi (act.towards)
 3 tuoq (heavy)
 3 ume (mmm)
@@ -491,25 +498,25 @@
 2 cheqbo (each.other's)
 2 chio (repeat)
 2 choqhui (useless)
+2 chu (middle)
 2 chui (early)
-2 chuqkuai (hungry)
 2 dao (information)
 2 daqkea (clock)
-2 dea (hit)
 2 dedo (decorate)
 2 deo (child)
 2 diai (seven)
 2 diofao (evening)
 2 doaq (settlement)
-2 duagi (wise)
 2 duasue (ask)
 2 epi (hooray)
+2 fa- (TEL)
 2 fana (towards)
 2 fe (five)
 2 feiluaq (bully)
 2 foaq (comfortable)
 2 foto (photo)
 2 fuo (touch)
+2 ge (stimulus)
 2 giao (dry)
 2 gio (light)
 2 giocia (dark)
@@ -529,15 +536,14 @@
 2 husho (hush)
 2 ifu (eww)
 2 irue (wind)
+2 jao (far)
 2 jaolaq (phone)
-2 jeq (same)
 2 jiachaq (tomorrow)
 2 jiai (grasp)
 2 jiajui (NEAR.FUT)
 2 jiaojio (temple)
 2 joa (week)
 2 joaq (leader)
-2 juoi (describe)
 2 kaq (visual)
 2 keiciu (Celsius)
 2 kiai (look.after)
@@ -564,10 +570,11 @@
 2 nam (bread)
 2 nea (wide)
 2 nhanabo (their)
+2 nia (low)
+2 niaqdiaq (annual)
 2 niefa (enter)
 2 nijao (DIST)
 2 noi (pain)
-2 nuokuai (tired)
 2 oe (hey.there)
 2 paqmuo (whole)
 2 paqnua (remove)
@@ -578,6 +585,7 @@
 2 roq (weep)
 2 ruai (royal)
 2 ruaijoaq (king/queen)
+2 rui- (ATEL)
 2 saodoaq (city)
 2 seoqrea (horizon)
 2 seoqtue (weather)
@@ -585,22 +593,18 @@
 2 shea (empty)
 2 shua (fall)
 2 shuainu (merely)
-2 shuao (bird)
-2 shui (secret)
 2 sunabo (your)
 2 tama (tomato)
 2 taokoe (choose.to)
 2 taqchao (car)
 2 teoqkuq (ask)
-2 teq (pay)
-2 tie (cover)
+2 teqguai (pay.work)
 2 tiechuo (lid)
 2 ufu (phew)
 2 upa (oops)
 2 uq (mhm)
 2 zeo (fruit)
 1 beaq (stick)
-1 bei- (FOC.CONTR)
 1 beq (extrusion)
 1 bideo (video)
 1 biejui (shortly.after)
@@ -608,6 +612,7 @@
 1 boju ()
 1 buifa (exit)
 1 buza (dunno)
+1 ce (node)
 1 chaqtu (daily)
 1 chea (hat)
 1 cheoq (bottle)
@@ -617,24 +622,27 @@
 1 chietua (teach)
 1 choadeoq (talk)
 1 choqkiu (usable)
+1 chosoq (favourite)
 1 chuairuqshua (hail)
 1 chuao (window)
 1 chuaq (ism)
 1 chuo (tool)
 1 cie (fish)
+1 coe (joined)
 1 cuai (wet)
 1 cuefuai (government)
 1 cui (magenta)
 1 daosi (interested)
 1 daqmoa (moment)
 1 dia (decrease)
+1 diaqkue (journal)
 1 dietaq (volunteer)
+1 diochuhaq (lunch)
 1 doe (function)
 1 doq (short)
 1 duahui (foolish)
 1 dueq (field)
 1 eoropa (Europe)
-1 fa- (TEL)
 1 fuq (clothing)
 1 gaqme (group)
 1 geanua (lift)
@@ -657,7 +665,6 @@
 1 huinue (threaten)
 1 huogi (sound.good)
 1 huohua (ear)
-1 jao (far)
 1 jara (run)
 1 jiainua (remove)
 1 jiashao (hope)
@@ -667,6 +674,7 @@
 1 joqdoaq (capital)
 1 juai (serious)
 1 juaodue (legal)
+1 juaq- (even)
 1 juo (letter)
 1 kaha (cough)
 1 kao (record)
@@ -679,7 +687,6 @@
 1 ko (nth)
 1 koaq (mature)
 1 koitieq (path)
-1 ku- (FOC)
 1 kudao (sigh)
 1 kue (book)
 1 kueq (gather)
@@ -699,7 +706,6 @@
 1 lojibaq (Lojban)
 1 loqcao (summer)
 1 lua (story)
-1 mao- (also)
 1 maqbo (its)
 1 me (aggregate)
 1 meaq (ship)
@@ -710,17 +716,19 @@
 1 moilao (hesitate)
 1 moinieq (stupid)
 1 moise (thought)
+1 mu (-ed)
 1 muaoguaq (forest)
 1 muaome (forest)
 1 muq (hand)
 1 naomi (ocean)
 1 naq (male)
 1 naraq (orange)
+1 nha- (VAR)
 1 niao (snow)
-1 niaqdiaq (annual)
 1 nietua (insert)
 1 nijui (PROX)
 1 niuboe (leaf)
+1 noai (milk)
 1 noqsi (taste-listen)
 1 nuidoaq (town)
 1 nuoi (masticate)
@@ -747,7 +755,6 @@
 1 roai (eight)
 1 roajiaq (nature)
 1 rue (weak)
-1 rui- (ATEL)
 1 ruogi (kind)
 1 ruqshua (rain)
 1 sai (matter)
@@ -767,15 +774,18 @@
 1 siaq (right)
 1 sieqca (amazing)
 1 sioq (wheel)
+1 su (previous.predicate)
 1 suaojie (care)
 1 sula (EXS)
 1 taodie (advise)
 1 taomoi (consider.doing)
-1 teqguai (pay.work)
+1 te (-ed)
+1 tiaq (brown)
 1 tiduasho (find)
 1 tiopui (how.many)
 1 tioqpoa (locked)
 1 tiqshoai (butterfly)
+1 toai (quantum)
 1 toe (cut)
 1 toqfua (table)
 1 tuaibo (physical)
@@ -843,7 +853,6 @@
 0 chome (insect)
 0 choqgi (useful)
 0 choqtiao (usable)
-0 chosoq (favourite)
 0 chuai (frozen)
 0 chuaikea (freezer)
 0 chuainao (ice)
@@ -863,7 +872,6 @@
 0 ciuse (excretion)
 0 coa (bridge)
 0 coaq (tamed)
-0 coe (joined)
 0 coetua (join)
 0 cuakuq (respond)
 0 cuao (beyond)
@@ -882,9 +890,7 @@
 0 diaiko (seventh)
 0 diao (drop)
 0 diaq (regular)
-0 diaqkue (journal)
 0 diochu (noon)
-0 diochuhaq (lunch)
 0 diu (science)
 0 doaqpaq (district)
 0 duachie (learn)
@@ -1022,7 +1028,6 @@
 0 joqhua (head)
 0 joqshaq (face)
 0 juaochiai (illegal)
-0 juaq- (even)
 0 jue (month)
 0 juediaq (monthly)
 0 jujuo (J)
@@ -1136,13 +1141,12 @@
 0 naqroaq (father)
 0 naqseo (husband)
 0 naraqchaq (tuesday)
+0 ne (amount)
 0 nei (nine)
 0 neiko (ninth)
 0 neoq (mr/mrs)
 0 neq (luck)
-0 nha- (VAR)
 0 nhanhoq (Nh)
-0 nia (low)
 0 niaoshua (snow)
 0 nieshua (fall.in)
 0 ninuaq (tonight)
@@ -1152,7 +1156,6 @@
 0 niqdua (discover)
 0 niqguokuai (miss)
 0 niu (plant)
-0 noai (milk)
 0 noilie (suffer)
 0 noq (gustatory)
 0 noqgai (taste)
@@ -1289,14 +1292,12 @@
 0 taocia (accidental)
 0 taosio (plan)
 0 tasi (taxi)
-0 te- (PPF)
 0 teaq (breast)
 0 teaqjieq (nipple)
 0 teaqniai (mammal)
 0 teaqriai (bra)
 0 tera (tera)
 0 tia (behind)
-0 tiaq (brown)
 0 tibi (TV)
 0 tiniqdua (find)
 0 tioq (lock)
@@ -1305,7 +1306,6 @@
 0 tise (trace)
 0 titieq (T)
 0 toagiu (line)
-0 toai (quantum)
 0 tofu (tofu)
 0 toq (board)
 0 torea (knife)
@@ -1327,40 +1327,47 @@
 0 zozeo (Z)
 
 == Unofficial words used ≥4 times in the corpus ===
-38 hia
+47 e-
+37 hia
 30 com
 30 ꝡei
+26 bushu
 21 shuq
-19 bushu
 19 pa
+18 hao-
 17 ai
+17 lim
 17 nheo
 16 gem
-16 lim
 15 eq
 15 hezo
+15 keoi
 15 o
 14 suena
 13 aaa
-13 keoi
+12 kaqsiu
 12 noeq
 12 sono
 11 aojai
-11 i
-11 kaqsiu
 11 kiri
+11 nuim
+11 saose
+11 tusue
 10 guru
 10 hite
 10 jaqbei
 10 rara
-10 saose
+10 rubu
 9 haha
+9 i
 9 iqlizu
+9 la-
 9 muqceaq
 9 nheje
-9 nuim
-9 rubu
+9 ni-
 8 cheujiao
+8 hoesioq
+8 i-
 8 jiaqruq
 8 kani
 8 koana
@@ -1369,43 +1376,47 @@
 8 titaq
 8 ꝡoutube
 7 bota
+7 cem
 7 chieche
 7 chijoaq
-7 e-
+7 feao
 7 hoaqnuim
-7 hoesioq
 7 iaq
 7 iqshao
 7 jiqna
 7 momoq
 7 naihe
+7 ne-
+7 ra-
 6 aa
 6 aika
+6 ce-
 6 dalao
+6 doido
 6 dote
-6 feao
+6 gom
 6 hoemai
-6 i-
 6 io
 6 jito
 6 joepoq
 6 lom
 6 miqla
+6 muaqja
 6 muijeq
 6 nheoi
+6 sa-
 6 saochijoaq
+6 seoqgua
 6 taofa
 6 u
-5 ada
 5 aona
 5 chaqdiaq
+5 chum-
 5 cuaqtao
 5 cueqtua
-5 doido
 5 feu
 5 fuaqkue
 5 giri
-5 gom
 5 haiba
 5 hoeihaq
 5 huoge
@@ -1414,29 +1425,31 @@
 5 mabala
 5 meai
 5 miesoa
+5 moese
 5 niti
+5 nuoge
 5 ruiq
-5 seoqgua
 5 sheija
+5 siqja
 5 suaomiu
 5 suaqse
-5 subushu
 5 tetabo
 5 tiaichao
 5 tishai
-5 tusue
 5 uꝡu
 5 zua
 5 ꝡoutu
+4 a-
+4 ada
+4 ai-
+4 boai
 4 buajiome
 4 daaaaa
 4 derani
 4 domu
-4 etusue
 4 gaimuo
 4 geomiq
 4 goso
-4 hagi
 4 hahaha
 4 hijaq
 4 huaqloi
@@ -1450,14 +1463,10 @@
 4 media
 4 meu
 4 mija
-4 moese
 4 mori
-4 muaqja
-4 mucem
-4 mudoi
+4 niq-
 4 noalie
 4 notua
-4 nuoge
 4 nuoqsai
 4 nuru
 4 okei
@@ -1474,12 +1483,14 @@
 4 shimeo
 4 shiusoq
 4 shom
+4 shuq-
 4 teqfuai
 4 toadua
 4 toaqchie
 4 tonameqtue
 4 unou
 4 unu
+4 zaise
 
 == Unofficial words used by ≥3 speakers ===
 hia 4
@@ -1490,7 +1501,7 @@ com 11
 nheo 4
 aaa 5
 hezo 3
-i 13
+i 12
 u 5
 io 3
 e- 4
@@ -1504,7 +1515,7 @@ like 3
 re 3
 use 3
 jito 3
-i- 3
+i- 4
 one 3
 pa 3
 momoq 4
