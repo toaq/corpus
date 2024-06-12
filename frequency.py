@@ -60,17 +60,17 @@ for y in dic:
 official = set(gloss.keys())
 
 print("== Official words by frequency in the corpus ===")
-for x, n in freq:
-    if x in official:
-        print(n, x, '('+gloss[x]+')')
-for x in sorted(set(official) - set(ctr)):
-    print(0, x, '('+gloss[x]+')')
+for word, n in freq:
+    if word in official:
+        print(n, word, '('+gloss[word]+')')
+for word in sorted(set(official) - set(ctr)):
+    print(0, word, '('+gloss[word]+')')
 
 print()
 print("== Unofficial words used ≥4 times in the corpus ===")
-for x, n in freq:
-    if x not in official and n >= 4:
-        print(n, x)
+for word, n in freq:
+    if word not in official and n >= 4 and word not in "liqjiao chichie ziamia geojiao loeshuao doidote".split():
+        print(n, word)
 
 print()
 print("== Unofficial words used by ≥3 speakers ===")
